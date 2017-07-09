@@ -849,4 +849,9 @@ endif
 
 # ethernet config tool
 PRODUCT_PACKAGES += \
-        ethernet
+        ethernet \
+        flash_erase \
+        i2cdetect \
+        i2cdump \
+        i2cget \
+        i2cset
