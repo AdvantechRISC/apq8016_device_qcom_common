@@ -845,11 +845,15 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES+= \
     ro.adb.secure=1
 endif
 
-# ethernet config tool
+# Advantech add tools
 PRODUCT_PACKAGES += \
         ethernet \
         flash_erase \
         i2cdetect \
         i2cdump \
         i2cget \
-        i2cset
+        i2cset \
+        chat \
+        firefox \
+        ip-up \
+        ip-down
